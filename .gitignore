@@ -75,6 +75,10 @@ docs/_build/
 .pybuilder/
 target/
 
+# Virtual Machines
+myenv/
+myenv2/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 

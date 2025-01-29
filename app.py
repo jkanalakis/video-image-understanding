@@ -33,7 +33,6 @@ def extract_frames(video_path, num_frames, output_folder):
         return error_msg
 
 
-
 # Function to generate description for an image using Janus-Pro-7B
 def generate_description(image_path, model, tokenizer):
     image = Image.open(image_path)
@@ -52,8 +51,12 @@ def main():
     num_frames = st.number_input("Number of frames to sample", min_value=1, value=10)
 
     if video_file is not None:
-        # Save uploaded video to a temporary file
-        video_path = f"temp_{video_file.name}"
+        # Create a directory to save videos
+        video_folder = "videos"
+        os.makedirs(video_folder, exist_ok=True)
+        
+        # Save uploaded video to the videos folder
+        video_path = os.path.join(video_folder, video_file.name)
         with open(video_path, "wb") as f:
             f.write(video_file.read())
 
