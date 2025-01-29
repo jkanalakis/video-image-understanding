@@ -1,0 +1,6 @@
+streamlit
+ffmpeg-python
+Pillow
+transformers
+numpy<2
+torch
