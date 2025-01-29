@@ -84,8 +84,8 @@ MIT License – Free to use and modify.
 
 ## Contributions
 
-🔹 Feel free to fork and submit pull requests!  
-🔹 Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/video-image-understanding/issues).  
+- Feel free to fork and submit pull requests!  
+- Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/video-image-understanding/issues).  
 
 ---
 
