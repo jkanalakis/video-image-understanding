@@ -1,17 +1,14 @@
 # video-image-understanding
 Builds a video description from scenes within the video by sampling video frames evenly from scenes and using an AI model to describe each frame append to a text file. A Streamlit app that extracts evenly sampled frames from a video and generates AI-generated descriptions for each frame using Janus-Pro-7B.
 
-![Streamlit App](https://via.placeholder.com/800x400?text=Video+Image+Understanding+App)  
-*(Replace with actual screenshot of your app.)*
-
 ---
 
-## **📌 Features**
-✅ Upload a video file (`.mp4`, `.mov`, `.avi`)  
-✅ Set the **number of frames** to sample  
-✅ Extract frames **at equal time intervals**  
-✅ Generate AI-powered **descriptions** for each frame  
-✅ Display descriptions in the **Streamlit UI**  
+## **Features**
+- Upload a video file (`.mp4`, `.mov`, `.avi`)  
+- Set the **number of frames** to sample  
+- Extract frames **at equal time intervals**  
+- Generate AI-powered **descriptions** for each frame  
+- Display descriptions in the **Streamlit UI**  
 
 ---
 
