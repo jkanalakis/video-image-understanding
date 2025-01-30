@@ -21,7 +21,7 @@ def extract_frames(video_path, num_frames, output_folder):
         (
             ffmpeg
             .input(video_path)
-            .output(f'{output_folder}/frame_%04d.png', vf=f"select='not(mod(t,{interval}))'", vsync="vfr")
+            .output(f'{output_folder}/frame_%04d.png', vf=f"fps=1/{interval}")
             .run(overwrite_output=True, capture_stdout=True, capture_stderr=True)
         )
         message = f"Frames extracted every {interval:.2f} seconds."
